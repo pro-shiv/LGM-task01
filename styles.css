@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #567db8;
+}
+.mainDiv{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    height: 100%;
+    margin: 1rem 0 3rem;
+    text-align: center;
+}
+.title{
+    color: #d24040;
+    font-size: 100px;
+    font-weight: 80px;
+}
+.input{
+
+padding :0.5rem 1rem ;
+outline : none ;
+height : 40px ;
+border-radius: 10px ;
+width : 320px ;
+margin : 0.40rem ;
+transition : .5s ;
+}
+.add{
+    width: 30px;
+    height: 30px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    margin: 0.25rem;
+    
+}
+.todo-item{
+    background: crimson;
+    cursor:pointer;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    position: relative;
+}
+.todo-remove{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    padding: 3px;
+    text-align: center;
+    
+}
+.todo-remove:hover{
+    background: rgb(171, 14, 45);
+    border-radius: 100%;
+
+}
